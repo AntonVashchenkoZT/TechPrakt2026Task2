@@ -26,3 +26,10 @@ header {
     margin-top: 0;
     color: #0056b3;
 }
+
+.news-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
