@@ -6,8 +6,8 @@ let arr = [
     },
     {
         "name": "Serhii",
-        "age": 19,
-        "title": "description"
+        "age": 20,
+        "title": "Привіт! Я Сергій!"
     },
     {
         "name": "Serhii",
