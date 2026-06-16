@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+   background-color: #121212;
+    color: #e0e0e0;
     padding: 20px;
     margin: 0;
 }
@@ -9,22 +9,25 @@ body {
 header {
     text-align: center;
     margin-bottom: 40px;
+    color: #ffffff;
 }
 
 .news-item {
-    background-color: #ffffff;
+    background-color: #1e1e1e;;
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid #2a2a2a;
 }
 
 .news-item h2 {
     margin-top: 0;
-    color: #0056b3;
+    color: #64b5f6;
+    letter-spacing: 0.5px;
 }
 
 .news-item img {
@@ -32,4 +35,10 @@ header {
     height: auto;
     border-radius: 4px;
     margin-bottom: 15px;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+.news-item img:hover {
+    opacity: 1;
 }
